@@ -28,7 +28,7 @@
 		// change permissions
 	echo "Changing permissions on repo files to 0775: ".shell_exec('chmod -R 0775 *')."\n";
 		/** IMPORTANT: change the group in this line **/
-	echo "Changing group on repo files to www-data:senncodingclub".shell_exec('chown -R www-data:senncodingclub *')."\n";
+	echo "Changing group on repo files to www-data:sennrobotics".shell_exec('chown -R www-data:sennrobotics *')."\n";
     }
 	else {
 		echo "No payload was provided. No action taken.\n";	
